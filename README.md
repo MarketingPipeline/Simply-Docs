@@ -1,5 +1,9 @@
 # Simply Docs
-A free static based blog / documentation HTML template built with [Simple.CSS](https://simplecss.org/) for technical documentation sets,
+<p align="center">
+  <img height="400" src="/assets/images/OG_image.png" />
+</p>
+
+A free static based for blog / technical documentation HTML template built with [Simple.CSS](https://simplecss.org/) that has
 simple navigation, site structure, editing options and more.
 
 
