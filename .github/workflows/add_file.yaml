@@ -1,19 +1,20 @@
-name: Build Windows x86 EXE
-
-
-# Define how you would like to start the job
-on: [workflow_dispatch]
-
-
+name: Create A File
+# This workflow is triggered on pushes to the repository.
+on:
+  push:
+    branches:
+      - master
 
 jobs:
-  build:
-
-    runs-on: windows-latest
-
+  createFile:
+    name: Create A File
+    runs-on: ubuntu-latest
     steps:
-          - name: Create File
-          - uses: "finnp/create-file-action@master"
-            env:
-            FILE_NAME: "pages/fileName.txt"
-            FILE_DATA: "test"
+      - uses: actions/checkout@v2
+      - uses: 1arp/create-a-file-action@0.2
+        with:
+          path: 'pages'
+          file: 'test.txt'
+          content: |
+            Hello
+            World
