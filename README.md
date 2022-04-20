@@ -6,7 +6,14 @@
 A fast, easy to use & free static based blog / technical documentation HTML template built with [Simple.CSS](https://simplecss.org/) that has
 simple navigation, site structure, editing options and more.
 
-
+### Some Amazing Features:
+* Ready to host on Github Pages!
+* Automagic flipping to dark mode.
+* Fully responsive.
+* Make changes using only standard HTML elements!
+* Easy to edit!
+* Apply your own CSS style with ease!
+* Super lightweight & fast!
 
 
 
