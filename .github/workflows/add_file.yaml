@@ -1,0 +1,107 @@
+name: Build Linux x86 Binary
+
+
+# Define how you would like to start the job
+on: [workflow_dispatch]
+  - name: Create File
+  - uses: "finnp/create-file-action@master"
+      env:
+        FILE_NAME: "pages/fileName.txt"
+        FILE_DATA: "<head>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include latest jquery.scrollTo, can download from https://github.com/flesler/jquery.scrollTo/releases -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Simple.css Demo | Simple.css</title>
+<meta name="description" content="A showcase of Simple.css formatting in action and how to use it.">
+
+<link rel="stylesheet" href="/Simple-Documentation/assets/style.css">
+
+<link rel="icon" href="/assets/images/favicon.png">
+<link rel="apple-touch-icon" href="/assets/images/favicon.png">
+
+ <!-- Facebook integration -->
+<meta property="og:title" content="Your App Documentation">
+<meta property="og:image" content="https://simplecss.org/assets/images/simple-css-feature.webp">
+<meta property="og:url" content="https://simplecss.org/demo">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Simple.css">
+<meta property="og:description" content="A showcase of Simple.css formatting in action and how to use it.">
+
+<!-- Twitter integration -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Simple.css Demo">
+<meta name="twitter:image" content="https://simplecss.org/assets/images/simple-css-feature.webp">
+<meta name="twitter:url" content="https://simplecss.org/demo">
+<meta name="twitter:description" content="Simple.css is classless CSS template that allows you to create a good looking website very quickly.">
+
+<link rel="canonical" href="https://simplecss.org/demo">
+<link rel="alternate" type="application/rss+xml" title="Simple.css" href="https://simplecss.org/feed.xml">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://simplecss.org/sitemap.xml">
+
+  </head>
+<header>
+      <nav>
+  
+  <a href="/Simple-Documentation/">Home</a>
+  
+  <a href="/Simple-Documentation/pages/documentation">Docs</a>
+  
+  <a href="/demo" class="current">Demo</a>
+  
+  <a href="/Simple-Documentation/pages/news">News</a>
+  
+  <a href="https://github.com/kevquirk/simple.css"><svg class="icon" viewBox="0 0 32 32"><path d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"></path></svg>Github</a>
+  
+</nav>
+
+        <h1>Blog Post Title</h1>
+      <p>Published: Jan 01, 2000 <br>by <a href="#">Author</a></p>
+    </header>
+
+
+ <main>
+<article>
+     
+      <p>
+        Lorem ipsum dolor sit amet, <b>consectetur adipisicing elit</b>, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud <em>exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat</em>. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <blockquote>
+ 
+        <h4> This is a GREAT pull quote.</h4>
+        <p> Update</p>
+         
+        <a href="#">- Author</a>
+      </blockquote>
+      <p>
+        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+        consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+        ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+        veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
+        ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+        qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+        qui dolorem eum fugiat quo voluptas nulla pariatur?"
+      </p>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+        praesentium voluptatum deleniti atque corrupti quos dolores et quas
+        molestias excepturi sint occaecati cupiditate non provident, similique sunt
+        in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+        fuga. Et harum quidem rerum facilis est et expedita distinctio.
+      </p>
+    </article>
+    </main>
+
+<footer>
+      <p>Simple.css was created by <a href="https://kevq.uk">Kev Quirk</a> and is licensed under the MIT license.</p>
+  <small>© 2014 Some company name</small>
+      <address>email@email.com</address>
+    </footer>"
