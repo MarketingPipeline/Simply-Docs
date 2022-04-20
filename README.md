@@ -16,7 +16,8 @@ You can find the Github Pages hosted demo of Simply Docs [here.](https://marketi
 
 To use this template on <b><i>Github Pages</b></i>:
 
-- Use this template
+- Use this
+[template](https://github.com/MarketingPipeline/Simply-Docs/generate)
 - <b>(Required)</b> Make changes in the head section of the HTML pages to match your GitHub Repo name.
 - Deploy to Github Pages
 
