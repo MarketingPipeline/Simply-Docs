@@ -1,4 +1,4 @@
-# Simply-Docs
+# Simply Docs
 A free static based blog / documentation HTML template built with [Simple.CSS](https://simplecss.org/) for technical documentation sets,
 simple navigation, site structure, editing options and more.
 
