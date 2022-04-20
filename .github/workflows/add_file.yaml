@@ -1,9 +1,8 @@
 name: Create A File
 # This workflow is triggered on pushes to the repository.
-on:
-  push:
-    branches:
-      - master
+
+# Define how you would like to start the job
+on: [workflow_dispatch]
 
 jobs:
   createFile:
