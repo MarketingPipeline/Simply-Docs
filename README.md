@@ -3,9 +3,8 @@
   <img height="400" src="/assets/images/OG_image.png" />
 </p>
 
-A free static based for blog / technical documentation HTML template built with [Simple.CSS](https://simplecss.org/) that has
+A fast, easy to use & free static based blog / technical documentation HTML template built with [Simple.CSS](https://simplecss.org/) that has
 simple navigation, site structure, editing options and more.
-
 
 
 
@@ -13,7 +12,7 @@ simple navigation, site structure, editing options and more.
 
 ## Example and usage
 
-You can find the Github Pages hosted demo of [Simply Docs](https://marketingpipeline.github.io/Simply-Docs/) here.
+You can find the Github Pages hosted demo of Simply Docs [here.](https://marketingpipeline.github.io/Simply-Docs/)
 
 To use this template on <b><i>Github Pages</b></i>:
 
