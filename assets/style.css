@@ -557,6 +557,9 @@ input[type="color" i] {
   margin: 2rem 0;
 }
 
+md {
+    white-space: pre-line;
+    }
 
 
 
