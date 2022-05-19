@@ -20,6 +20,9 @@
 }
 
 /* Dark theme */
+
+
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #212121;
@@ -553,3 +556,11 @@ input[type="color" i] {
   padding: 1.5rem;
   margin: 2rem 0;
 }
+
+
+
+/* Markdown Line Breaks */
+
+md {
+    white-space: pre-line;
+    }
