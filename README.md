@@ -8,6 +8,7 @@ simple navigation, site structure, editing options and more.
 
 ### Some Amazing Features:
 * Ready to host on Github Pages!
+* Markdown Support - made possible by [Markdown Tag](https://github.com/MarketingPipeline/Markdown-Tag) 
 * Automagic flipping to dark mode.
 * Fully responsive.
 * Make changes using only standard HTML elements!
