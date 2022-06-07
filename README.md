@@ -3,7 +3,7 @@
   <img height="400" src="/assets/images/OG_image.png" />
 </p>
 <div align="center">
-A fast, free & easy to use static based plain HTML template. <br>  That allows you to make a beautiful personal / blog / technical documentation website(s) really quickly.
+A simple, fast, free & easy to use static based plain HTML template. <br>  That allows you to make a beautiful personal / blog or technical documentation website really quickly.
  
 
 ### Some Amazing Features:
