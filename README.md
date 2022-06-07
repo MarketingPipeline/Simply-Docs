@@ -4,9 +4,22 @@
 </p>
 <div align="center">
 A simple, fast, free & easy to use static based plain HTML template. <br>  That allows you to make a beautiful personal / blog or technical documentation website really quickly.
- 
+  
+  
+   <br>
+  <small> <b><i>Show your support!</i> </b></small>
+  <br>
+   <a href="https://github.com/MarketingPipeline/Simply-Docs">
+    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Simply-Docs.svg?style=social&label=Star">
+  </a>
+  <a href="https://github.com/MarketingPipeline/Simply-Docs/fork">
+    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Simply-Docs.svg?style=social&label=Fork">
+  </a>
+   </p>  
+ </div>
 
-### Some Amazing Features:
+
+## Features:
   * Write in <b>Pure HTML</b> - there are NO CSS classes as it uses a <b>classless CSS <a href="https://github.com/kevquirk/simple.css">framework</a></b>
 * Ready to host on Github Pages!
 * Markdown Support - made possible by [Markdown Tag](https://github.com/MarketingPipeline/Markdown-Tag) 
@@ -15,7 +28,6 @@ A simple, fast, free & easy to use static based plain HTML template. <br>  That 
 * Apply your own CSS style with ease!
 * Super lightweight & fast & easy to edit!
 
-</div>
 
 ## Example and usage
 
