@@ -1,20 +1,19 @@
 # Simply Docs
 <p align="center">
-  <img height="400" src="/assets/images/OG_image.png" />
+  <img height="400" src="https://i.imgur.com/lRDqqVA.png" />
 </p>
 <div align="center">
 A simple, fast, free & easy to use static based plain HTML template. <br>  That allows you to make a beautiful personal / blog or technical documentation website really quickly.
  
 
 ### Some Amazing Features:
-  * There are NO CSS classes as it uses a <b>classless CSS <a href="https://github.com/kevquirk/simple.css">framework</a></b>
+  * Write in <b>Pure HTML</b> - there are NO CSS classes as it uses a <b>classless CSS <a href="https://github.com/kevquirk/simple.css">framework</a></b>
 * Ready to host on Github Pages!
 * Markdown Support - made possible by [Markdown Tag](https://github.com/MarketingPipeline/Markdown-Tag) 
 * Automagic flipping to dark mode.
 * Fully responsive.
-* Easy to edit!
 * Apply your own CSS style with ease!
-* Super lightweight & fast!
+* Super lightweight & fast & easy to edit!
 
 </div>
 
