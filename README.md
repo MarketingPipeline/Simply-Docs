@@ -2,21 +2,21 @@
 <p align="center">
   <img height="400" src="/assets/images/OG_image.png" />
 </p>
-
-A fast, easy to use & free static based blog / technical documentation HTML template built with [Simple.CSS](https://simplecss.org/) that has
-simple navigation, site structure, editing options and more.
+<div align="center">
+A fast, free & easy to use static based plain HTML template. <br>  That allows you to make a beautiful personal / blog / technical documentation website(s) really quickly.
+ 
 
 ### Some Amazing Features:
+  * There are NO CSS classes as it uses a <b>classless CSS <a href="https://github.com/kevquirk/simple.css">framework</a></b>
 * Ready to host on Github Pages!
 * Markdown Support - made possible by [Markdown Tag](https://github.com/MarketingPipeline/Markdown-Tag) 
 * Automagic flipping to dark mode.
 * Fully responsive.
-* Make changes using only standard HTML elements!
 * Easy to edit!
 * Apply your own CSS style with ease!
 * Super lightweight & fast!
 
-
+</div>
 
 ## Example and usage
 
@@ -40,11 +40,11 @@ To use this template on your own <b><i>hosting provider</b></i>:
 
 ## Pages
 
- * Home Page
- * Documentation Page
- * News Page
- * Blog Post Page
- * Author Page
+ * [Home Page](https://marketingpipeline.github.io/Simply-Docs/)
+ * [Documentation Page](https://marketingpipeline.github.io/Simply-Docs/pages/documentation)
+ * [News Page](https://marketingpipeline.github.io/Simply-Docs/pages/news)
+ * [Blog Post Page](https://marketingpipeline.github.io/Simply-Docs/pages/blog-post)
+ * [Author Page](https://marketingpipeline.github.io/Simply-Docs/pages/author)
 
 ## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Simply-Docs)
 
