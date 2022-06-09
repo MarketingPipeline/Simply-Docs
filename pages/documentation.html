@@ -9,7 +9,6 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title> Documentation | Demo</title>
 <meta name="description" content="A showcase of Simply Docs by MarketingPipeline built using Simple.CSS">
     
@@ -36,6 +35,8 @@
 <meta name="twitter:url" content="https://marketingpipeline.github.io/Simply-Docs/">
 <meta name="twitter:description" content="A Simply Docs / Blog Template built using Simple.css">
 
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.min.js"></script>
 
   </head>
 <header>
@@ -79,7 +80,7 @@
         <ul>
 <li><a href="#about2"><b>Code Snippets</a></b><ul>
 <li><a href="#markdown_example">Markdown Post Example</a></li>
-<li><a href="#about">I'm a hyperlink</a></li>
+<li><a href="#syntax_highlighting">Syntax Highlighting</a></li>
 <li><a href="#about">I'm a hyperlink</a></li>
 </ul>
 
@@ -159,9 +160,24 @@
 <article>
       <h1 id="markdown_example">Markdown Example</h1>
 <md>
----
-__This post is all wrote in markdown :)__
 
+You can write / use Markdown Content in Simply Docs with literal EASE! Thanks to an awesome tool of ours - [Markdown Tag](https://github.com/MarketingPipeline/Markdown-Tag)	
+
+	
+	
+### How to use Markdown Content in [Simply Docs](https://github.com/MarketingPipeline/Simply-Docs)
+
+	
+	
+        &lt;md&gt;# Put your markdown content here  &lt;/md&gt;
+
+	
+That's it! Simply as that! <br>
+	
+
+	
+
+This post is all wrote in markdown :)	
 
 You will love this!
 
@@ -264,7 +280,7 @@ Block code "fences"
 Sample text here...
 ```
 
-Syntax highlighting (NOT WORKING)
+Syntax highlighting
 
 ``` js
 var foo = function (bar) {
@@ -350,7 +366,45 @@ Duplicated footnote reference[^second].
     </article>
           </main> 
           
-          
+  
+
+<article>
+      <h1 id="syntax_highlighting">Syntax Highlighting</h1>
+   <p>
+       Simply Docs now has <b>syntax highlighting support</b>, 
+		 the following post demonstrates how to <em>use it</em>.
+      </p>
+	
+	<br>
+	
+	<h3> How to use in plain HTML</h3>		
+<pre class="language-markup">
+<code>Put your language type ↓ here
+&lt;pre class=&quot;language-markup&quot;&gt;&lt;code&gt;
+    &lt;!-- code content to highlight... --&gt;
+&lt;/code&gt;&lt;/pre&gt;</code></pre>
+	
+	<br>
+	
+		
+	<h3> How to use in Markdown</h3>	
+	
+	<pre class="language-markup">
+<code>Add a Markdown Tag & use GitHub Markdown Syntax to use Code Highlighting like so - 
+&lt;md&gt; 
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```  &lt;/md&gt;</code></pre>
+	
+    </article>
+
+
+
+
           
 
 <footer>
