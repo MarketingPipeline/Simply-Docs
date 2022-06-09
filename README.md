@@ -23,6 +23,7 @@ A simple, fast, free & easy to use static based plain HTML template. <br>  That 
   * Write in <b>Pure HTML</b> - there are NO CSS classes as it uses a <b>classless CSS <a href="https://github.com/kevquirk/simple.css">framework</a></b>
 * Ready to host on Github Pages!
 * Markdown Support - made possible by [Markdown Tag](https://github.com/MarketingPipeline/Markdown-Tag) 
+* Syntax Highlighting
 * Automagic flipping to dark mode.
 * Fully responsive.
 * Apply your own CSS style with ease!
