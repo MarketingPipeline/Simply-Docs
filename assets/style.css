@@ -27,9 +27,6 @@
   
   .anchorjs-link {
     color:white;
-    opacity: 0;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
 }
 
  code[class*="language-"],
@@ -694,12 +691,6 @@ input[type="color" i] {
 }
 
 
-
-.anchorjs-link {
-    opacity: 0;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-}
 
 
 code[class*="language-"],
