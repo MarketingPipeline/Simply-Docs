@@ -810,3 +810,12 @@ pre[class*="language-"] {
 .token.italic {
 	font-style: italic;
 }
+
+.linkUnderline{
+  text-decoration: none;
+  color: var(--accent)
+}
+
+.homelinkUnderline{
+  text-decoration: none;
+}
